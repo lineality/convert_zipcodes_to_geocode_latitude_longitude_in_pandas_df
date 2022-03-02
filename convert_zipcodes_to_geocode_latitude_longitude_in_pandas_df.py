@@ -8,10 +8,10 @@ This assumes that the columns in your lookup-table are name:
     "longitude"
     
     
-this assumes that the last two columns in your df are:
+This assumes that the last two columns in your df are:
     "latitude", "longitude"
 in that order.
-(spelling of the names is not needed, just being the last two)
+(spelling of the names is not needed, just being the last two columns.)
 
 Exceptions caught below may include string values.
 
