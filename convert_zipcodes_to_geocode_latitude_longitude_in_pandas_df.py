@@ -15,7 +15,17 @@ in that order.
 
 Exceptions caught below may include string values.
 
+Use this for a notebook: (add the "!")
+!wget("https://raw.githubusercontent.com/lineality/convert_zipcodes_to_geocode_latitude_longitude_in_pandas_df/main/USA_zipcode_to_lat_long.csv")
+
 """
+import pandas as pd
+
+# get lookup table
+wget("https://raw.githubusercontent.com/lineality/convert_zipcodes_to_geocode_latitude_longitude_in_pandas_df/main/USA_zipcode_to_lat_long.csv")
+
+# load lookup table
+zip_df = pd.read_csv("USA_zipcode_to_lat_long.csv")
 
 how_zipcode_is_named_in_your_csv = "Zip"
 
