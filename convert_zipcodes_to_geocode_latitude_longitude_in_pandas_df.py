@@ -52,6 +52,7 @@ for index, value in df[how_zipcode_is_named_in_your_csv].iteritems():
     except:
         print(f"index= {index}, value={value} (type:{type(value)}) out of {shape_number}")
 
+# Notify user that process is complete.
 print("Done!")
 
 # Make csv:
